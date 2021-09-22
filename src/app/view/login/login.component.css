@@ -52,7 +52,7 @@ button {
 }
 
 button:active {
-    background-color: rgba(240, 27, 116, 0.842);
+    background-color: rgba(240, 69, 40, 0.842);
     width: 51%;
 }
 

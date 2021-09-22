@@ -28,6 +28,11 @@ export class AuthService {
     }
   }
 
+  userStillAuthent() {
+    return this.userAuthent;
+  }
+
+
 
 }
  
