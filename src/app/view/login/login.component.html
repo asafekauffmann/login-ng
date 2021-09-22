@@ -1,12 +1,15 @@
 <div class="container">    
     <h2>login</h2>   
     <br> 
+
     <label for="usuario">User</label>
-    <input id="usuario" type="text">
+    <input [(ngModel)]="usuario.name" id="usuario" type="text">
     <br>
+
     <label for="password">Password</label>
-    <input id="password" type="password">
+    <input [(ngModel)]="usuario.password" id="password" type="password">
     <br>
+
     <button (click)="startLog()" type="submit" >
         SUBMIT
     </button>

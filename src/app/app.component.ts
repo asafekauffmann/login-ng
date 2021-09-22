@@ -1,3 +1,4 @@
+import { AuthService } from './view/login/auth.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'login-ng';
+
+  showMenu: boolean = false;
+
+  constructor(private authService: AuthService) {
+
+  }
+
+  ngOnInit() {
+    this.authService.showMenuEmitter.subscribe(
+      show => this.showMenu = show
+    );
+  }
+
+
 }

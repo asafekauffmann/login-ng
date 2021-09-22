@@ -13,8 +13,7 @@ import { AuthService } from './view/login/auth.service';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
-
-
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -29,7 +28,8 @@ import {MatIconModule} from '@angular/material/icon';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    FormsModule
   ],
   providers: [AuthService ],
   bootstrap: [AppComponent]
