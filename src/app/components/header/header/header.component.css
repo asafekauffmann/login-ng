@@ -1,0 +1,28 @@
+.container {
+    width: 80%;
+    height: 64px;
+    background-color: rgb(233, 233, 248);
+    margin-left: 20%;
+    box-shadow: 5px 0px 10px 1px rgb(169, 171, 173);
+}
+
+ul {
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    list-style-type: none;
+}
+
+ul li a {
+     color: rgb(51, 50, 50);
+
+}
+
+li {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    
+}
