@@ -30,16 +30,16 @@ a {
 
 a:hover {
     border-radius: 10px;
-    background-color: rgba(240, 195, 223, 0.568);
+    background-color: rgba(243, 179, 170, 0.452);
 }
 
 span {
     position: absolute;
-    padding: 20px;
+    padding: 18px;
     right: 5px;
 }
 
 span:hover {
-    color: rgb(240, 27, 116);
+    color: rgb(245, 83, 61);
 }
 

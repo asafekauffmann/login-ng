@@ -24,7 +24,7 @@ input {
     margin: 8px 0;
     border: none;
     border-radius: 5px;
-    border-bottom: 2px solid rgb(235, 123, 170);
+    border-bottom: 2px solid rgb(245, 83, 61);
     background-color: rgb(233, 233, 248);
 }
 
@@ -32,6 +32,7 @@ input:focus {
     outline: none;
     font-family: 'Yaldevi', sans-serif;
     font-weight: bold;
+    border: 2px solid rgb(240, 69, 47);
     color: rgb(51, 50, 50);
 }
 
@@ -46,7 +47,7 @@ button {
     margin: 8px 0;
     border: none;
     border-radius: 5px;
-    background-color: rgb(240, 27, 116);
+    background-color: rgb(245, 83, 61);
     color: rgb(241, 241, 241);    
 }
 
@@ -54,3 +55,4 @@ button:active {
     background-color: rgba(240, 27, 116, 0.842);
     width: 51%;
 }
+
