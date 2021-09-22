@@ -2,7 +2,6 @@ import { Usuario } from './usuario';
 import { EventEmitter, Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 
-
 @Injectable({
   providedIn: 'root'
 })
@@ -16,13 +15,10 @@ export class AuthService {
 
   startLog(usuario: Usuario) {
     if (usuario.name === '@usuario' && usuario.password === 'pass') {
-
         this.userAuthent = true;
         this.showMenuEmitter.emit(true);
         this.router.navigate(['/']);
-
     } else {
-      
         this.userAuthent = false;
         this.showMenuEmitter.emit(false);
     }
