@@ -39,3 +39,7 @@ span {
     right: 5px;
 }
 
+span:hover {
+    color: rgb(240, 27, 116);
+}
+
