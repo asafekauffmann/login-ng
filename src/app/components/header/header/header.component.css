@@ -1,12 +1,14 @@
 .container {
+    display: flex;
     width: 80%;
     height: 64px;
-    background-color: rgb(233, 233, 248);
+    background-color: rgb(245, 245, 255);
     margin-left: 20%;
     box-shadow: 5px 0px 10px 1px rgb(169, 171, 173);
 }
 
 ul {
+    
     display: flex;
     padding: 20px;
     list-style: none;
@@ -15,7 +17,6 @@ ul {
 
 ul li a {
      color: rgb(51, 50, 50);
-
 }
 
 li {
@@ -24,5 +25,17 @@ li {
 
 a {
     text-decoration: none;
-    
+    padding: 5px;
 }
+
+a:hover {
+    border-radius: 10px;
+    background-color: rgba(240, 195, 223, 0.568);
+}
+
+span {
+    position: absolute;
+    padding: 20px;
+    right: 5px;
+}
+

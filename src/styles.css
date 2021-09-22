@@ -10,6 +10,8 @@ body {
     font-family: 'Yaldevi', sans-serif;
     font-size: 16px;
     color: rgb(51, 50, 50);
-    font-weight: bold;
     text-decoration: none;
+    font-weight: 450;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -33,15 +33,12 @@ input:focus {
     font-family: 'Yaldevi', sans-serif;
     font-weight: bold;
     color: rgb(51, 50, 50);
-
 }
 
 label {
     font-size: 15px;
     background-color: rgb(246, 246, 253);
 }
-
-
 
 button {
     height: 35px;
@@ -50,7 +47,5 @@ button {
     border: none;
     border-radius: 5px;
     background-color: rgb(240, 27, 116);
-    color: rgb(241, 241, 241);
-    
-    
+    color: rgb(241, 241, 241);    
 }
